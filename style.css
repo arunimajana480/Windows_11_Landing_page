@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.taskbar{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.taskbarwindow{
+    display: flex;
+    padding-left:30%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2px;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+}
+
+.taskbarsearch{
+    display: flex;
+    padding-left:34%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2px;
+}
+
+.taskbarxbox{
+    display: flex;
+    padding-left:38%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2px;
+}
+
+.taskbardashboard{
+    display: flex;
+    padding-left:42%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2px;
+}
+
+.taskbaredge{
+    display: flex;
+    padding-left:46%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2px;
+}
+
+.taskbarvscode{
+    display: flex;
+    padding-left:50%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2px;
+}
+
+.taskbarpage{
+    display: flex;
+    padding-left:54%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2px;
+}
+
+.taskbarmsstore{
+    display: flex;
+    padding-left:58%;
+    position: absolute;
+    bottom: 0;
+}
+
+.taskbararrow{
+    display: flex;
+    padding-left:75%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 15px;
+}
+
+.taskbarbattery{
+    display: flex;
+    padding-left:78%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 7px;
+}
+
+.taskbarspeaker{
+    display: flex;
+    padding-left:82%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 9.8px;
+}
+
+.taskbario{
+    display: flex;
+    padding-left:85%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 13px;
+}
+
+.taskbartimedate{
+    padding-left:89%;
+    position: absolute;
+    bottom: 0;
+}
+
+.taskbarmessage{
+    display: flex;
+    padding-left:96%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 8px;
+}
+
+.iconsbin{
+    color: white;
+    padding-top: 20px;
+    padding-left: 8px;
+}
+
+.iconschrome{
+    color: white;
+    padding-top: 20px;
+}
+
+.iconsedge{
+    color: white;
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.startmenu{
+    background-color: aliceblue;
+    color: black;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-left: 250px;
+    position: absolute;
+    bottom: -655px;
+    width: 50%;
+    transition: all 0s ease-in; 
+}
+
+.startmenu1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pinned{
+    padding-right: 480px;
+}
+
+.startmenu2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;   
+}
+.startmenuedge{
+    padding-right: 60px;
+}
+.startmenumail{
+    padding-right: 60px;
+}
+.startmenucalender{
+    padding-right:60px;
+}
+.startmenumsstore{
+    padding-right: 30px;
+}
+.startmenuphotos{
+    padding-right: 60px;
+}
+
+.startmenu3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.startmenucalculator{
+    padding-right: 30px;
+}
+.startmenualarm{
+    padding-right: 62px;
+}
+.startmenunotepad{
+    padding-right: 70px;
+}
+.startmenupaint{
+    padding-right: 85px;
+}
+.startmenufile{
+    padding-right: 20px;
+}
+
+
+.startmenu4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.startmenu5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.profile{
+    padding-right: 10px;
+}
+.username{
+    padding-top: 3px;
+    padding-right: 370px;
+}
+
+
+/*.startmenu{
+    position: absolute;
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+}
+.startmenu img{
+    border-radius: 8px;
+}*/
